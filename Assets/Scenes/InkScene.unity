@@ -568,7 +568,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"characterDialog","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.TextAsset,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 4900000, guid: e447b0d0785151f4bb648f48dae53482, type: 3}
+    - {fileID: 4900000, guid: ba802980225f62a48bbc8dc0b2cfd1a6, type: 3}
 --- !u!1 &932824991
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +842,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"dialog","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.TextAsset,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 4900000, guid: ad33d35e85d6c72418e0ae198f19a984, type: 3}
+    - {fileID: 4900000, guid: ba802980225f62a48bbc8dc0b2cfd1a6, type: 3}
 --- !u!136 &1665649940
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1057,6 +1057,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1670025065765840630, guid: 1e35ff0835be64341ba632879d4463ae,
+        type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: ba802980225f62a48bbc8dc0b2cfd1a6, type: 3}
     - target: {fileID: 4313073705214427054, guid: 1e35ff0835be64341ba632879d4463ae,
         type: 3}
       propertyPath: m_ChildAlignment
